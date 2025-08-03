@@ -6,10 +6,10 @@ This code is proprietary and may not be copied, modified, distributed, or used i
 
 ____
 
-archery_vision_analysis.py: Provide image files in the format: png, jpg, jpeg, webp –– in the same folder as code file, we can't distribute image files to avoid copyright issue. However, you can use your own image or any publicaly avaible images from the web.
+modality/text/archery_vision_analysis.py: Provide image files in the format: png, jpg, jpeg, webp –– in the same folder as code file, we can't distribute image files to avoid copyright issue. However, you can use your own image or any publicaly avaible images from the web.
 
-LLMManager.swift: 
-- This library can be called with appropriate archer's completition data, examples are shared in examples folder.
+modality/vision/LLMManager.swift: 
+- This library can be called with appropriate archer's completition data, examples are shared in 'examples' folder.
 - Sample inference code:
 
   > @StateObject private var llmManager = LLMManager()
